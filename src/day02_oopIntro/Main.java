@@ -14,28 +14,39 @@ public static void main(String[] args) {
 //				5				
 //			};
 		
-		Product product1 = new Product(1,"Lenovo V14",15000,"16 GB Ram" );		
+		Product product1 = new Product(1,"Lenovo V14",15000,"16 GB Ram",10 );		
 
 		
 		Product product2 = new Product();		
-		product2.id=2;
-		product2.name="Lenovo V15";
-		product2.unitPrice=16000;
-		product2.detail="32 GB Ram";
+		product2.setId(2);
+		product2.setName("Lenovo V15");
+		product2.setDetail("16 GB");
+		product2.setDiscount(10);
+		product2.setUnitPrice(16000);
+		System.out.println(product2.getUnitPriceAfterDiscount());
+		
+//		product2.id=2;
+//		product2.name="Lenovo V15";
+//		product2.unitPrice=16000;
+//		product2.detail="32 GB Ram";
+//		product2.discount=10;
+//		product2.unitPriceAfterDiscount=14400;
+		
+		
 		
 		Product product3 = new Product();		
-		product3.id=3;
-		product3.name="Hp"; 
-		product3.unitPrice=10000;
-		product3.detail="8 GB Ram";
-		
+//		product3.id=3;
+//		product3.name="Hp"; 
+//		product3.unitPrice=10000;
+//		product3.detail="8 GB Ram";
+//		
 		
 		Product[] products = {product1,product2,product3};
 		
-		for (Product product : products) {
-			
-			System.out.println(product.name);
-		}
+//		for (Product product : products) {
+//			
+//			System.out.println(product.name);
+//		}
 				
 		System.out.println(products.length);
 		
