@@ -25,6 +25,8 @@ public static void main(String[] args) {
 		product2.setUnitPrice(16000);
 		System.out.println(product2.getUnitPriceAfterDiscount());
 		
+		
+		
 //		product2.id=2;
 //		product2.name="Lenovo V15";
 //		product2.unitPrice=16000;
@@ -51,12 +53,15 @@ public static void main(String[] args) {
 		System.out.println(products.length);
 		
 		Category category1= new Category();
-		category1.id = 1;
-		category1.name="Bilgisayar";
+		category1.setId(1);
+		category1.setName("Bilgisayar");
 		
 		Category category2= new Category();
-		category2.id = 2;
-		category2.name="Ev/Bahce";
+		category2.setId(2);
+		category2.setName("Ev/ Bahce");
+		
+		System.out.println(category1.getName());
+		System.out.println(category2.getName());
 				
 		ProductManager productManger = new ProductManager();
 		productManger.addToCart(product1);
