@@ -1,6 +1,6 @@
 package videoExamples;
 
-public class Example02 {
+public class Example02_Letters {
 
 	public static void main(String[] args) {
 

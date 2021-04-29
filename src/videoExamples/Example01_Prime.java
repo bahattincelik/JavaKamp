@@ -1,6 +1,6 @@
 package videoExamples;
 
-public class Example01 {
+public class Example01_Prime {
 
 	public static void main(String[] args) {
 		int number = -1;
