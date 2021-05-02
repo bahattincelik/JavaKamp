@@ -1,8 +1,6 @@
-package homework03;
+package Mehmet_Hoca_Ile_Java_Proje;
 
-public class Student extends User{
-	
-	
+public class Student extends User {
 	public Student(int id, String firstName, String lastName,String email) {
 		super(id, firstName, lastName);
 		this.email=email;
@@ -10,7 +8,7 @@ public class Student extends User{
 	
 	
 
-	 private String email;
+	private String email;
 	
 	
 	public String getEmail() {

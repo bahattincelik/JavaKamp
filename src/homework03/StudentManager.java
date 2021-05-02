@@ -1,16 +1,29 @@
 package homework03;
 
-public class StudentManager extends UserManager{
+public class StudentManager implements UserManager{
+	
+	private Student student;
+	
 
-	
-	
-	@Override
-	public void showInfos(User user) {
-		// TODO Auto-generated method stub
-		super.showInfos(user);
-		System.out.println("Email : "+ );
-		System.out.println("Ogrenci eklendi");
+	public StudentManager(Student student) {
+		super();
+		this.student = student;
 	}
+
+
+
+	@Override
+	public void showInfos() {
+		System.out.println("show ınfos çalıştı");
+		System.out.println( student.getEmail());
+		System.out.println(student.getId());
+		System.out.println(student.getFirstName()+" "+student.getLastName());		
+	}
+
+
+
+
+
 
 
 

@@ -1,10 +1,9 @@
-package homework03;
+package Mehmet_Hoca_Ile_Java_Proje;
 
 public class Instructor extends User {
-	
 	public Instructor(int id, String firstName, String lastName,double salary) {
 		super(id, firstName, lastName);
-		this.salary=salary;
+		
 	}
 
 	private double salary;

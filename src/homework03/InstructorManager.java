@@ -1,12 +1,32 @@
 package homework03;
 
-public class InstructorManager extends UserManager {
+public class InstructorManager implements UserManager {
+
+	private Instructor instructor;
+	
+	
+	
+	
+	
+	public InstructorManager(Instructor instructor) {
+		super();
+		this.instructor = instructor;
+	}
+
+
+
+
 
 	@Override
-	public void showInfos(User user) {
-		// TODO Auto-generated method stub
-		super.showInfos(user);
-		System.out.println("Egitmen eklendi");
+	public void showInfos() {
+		System.out.println( instructor.getSalary());
+		System.out.println(instructor.getId());
+		System.out.println(instructor.getFirstName()+" "+instructor.getLastName());	
+		
 	}
+
+
+
+	
 	
 }
