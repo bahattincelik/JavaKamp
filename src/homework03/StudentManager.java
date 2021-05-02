@@ -8,7 +8,7 @@ public class StudentManager extends UserManager{
 	public void showInfos(User user) {
 		// TODO Auto-generated method stub
 		super.showInfos(user);
-		
+		System.out.println("Email : "+ );
 		System.out.println("Ogrenci eklendi");
 	}
 
