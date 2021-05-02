@@ -1,5 +1,5 @@
 package kahveUygulamasiAbstractInterface;
 
-public class NeroCustomerManager {
+public class NeroCustomerManager extends BaseCustomerManager {
 
 }

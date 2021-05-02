@@ -1,4 +1,4 @@
-package Mehmet_Hoca_Ile_Java_Proje;
+package Mehmet_Hoca_Ile_Java_Proje
 
 public class User {
 	private int id;
@@ -7,7 +7,7 @@ public class User {
 	
 
 	public User(int id, String firstName, String lastName) {
-		super();
+		
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;

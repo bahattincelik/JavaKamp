@@ -6,7 +6,7 @@ public class InstructorManager extends UserManager {
 	public void showInfos(User user) {
 		// TODO Auto-generated method stub
 		super.showInfos(user);
-		System.out.println("Ucreti : "+ );
+		System.out.println("Ucreti : " );
 		System.out.println("Egitmen eklendi");
 	}
 }

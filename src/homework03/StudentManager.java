@@ -11,14 +11,17 @@ public class StudentManager implements UserManager{
 	}
 
 
-
 	@Override
 	public void showInfos() {
-		System.out.println("show ınfos çalıştı");
+		// TODO Auto-generated method stub
+		UserManager.super.showInfos();
 		System.out.println( student.getEmail());
-		System.out.println(student.getId());
-		System.out.println(student.getFirstName()+" "+student.getLastName());		
+
 	}
+
+
+
+	
 
 
 

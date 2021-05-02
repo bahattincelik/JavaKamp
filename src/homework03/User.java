@@ -6,6 +6,8 @@ public class User {
 	private String lastName;
 	
 
+	
+
 	public User(int id, String firstName, String lastName) {
 		super();
 		this.id = id;
@@ -13,6 +15,10 @@ public class User {
 		this.lastName = lastName;
 	}
 	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}
