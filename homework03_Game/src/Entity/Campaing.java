@@ -1,5 +1,5 @@
 package Entity;
 
-public class Campaing {
+public class Campaing implements Enti{
 
 }
